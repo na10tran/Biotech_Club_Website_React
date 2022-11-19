@@ -3,7 +3,9 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-
+import ButtonGroup from '../elements/ButtonGroup';
+import Button from '../elements/Button';
+import { Link } from 'react-router-dom';
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -53,9 +55,23 @@ const FeaturesTiles = ({
       {...props}
       className={outerClasses}
     >
+      
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
+          <div>
+      <Link to="/FAQ">
+      <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+            Fair FAQ
+            </Button>
+      </Link>
+      <Button tag="a" color="dark" wideMobile href="https://forms.gle/Fi5cpdYzQk2rHzqG8/">
+        Sign Up
+        </Button>
+        <br />
+        <br />
+
+      </div>
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
@@ -74,7 +90,7 @@ const FeaturesTiles = ({
                     Kaiser Permanente
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    DESCRIPTION STUFF IDK
                     </p>
                 </div>
               </div>
@@ -96,7 +112,7 @@ const FeaturesTiles = ({
                     Seaspine
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  DESCRIPTION STUFF IDK
                     </p>
                 </div>
               </div>
@@ -118,7 +134,7 @@ const FeaturesTiles = ({
                     Keck Graduate Institute
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  DESCRIPTION STUFF IDK
                     </p>
                 </div>
               </div>
@@ -140,7 +156,7 @@ const FeaturesTiles = ({
                     Cannon Quality Group
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  DESCRIPTION STUFF IDK
                     </p>
                 </div>
               </div>
@@ -162,7 +178,7 @@ const FeaturesTiles = ({
                     Sarepta Thereupetics
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  DESCRIPTION STUFF IDK
                     </p>
                 </div>
               </div>
@@ -184,7 +200,7 @@ const FeaturesTiles = ({
                     Hardy Diagnostics
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  DESCRIPTION STUFF IDK
                     </p>
                 </div>
               </div>
@@ -193,7 +209,8 @@ const FeaturesTiles = ({
           </div>
         </div>
       </div>
-    </section>
+
+              </section>
   );
 }
 

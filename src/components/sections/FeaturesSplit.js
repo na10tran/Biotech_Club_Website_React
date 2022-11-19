@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'What Do We Do?',
+    paragraph: 'Besides our yearly career fair, we offer students various opportunities to become involved in the biotechnology field and industry - through guest speakers, student panels, and networking opportunities.'
   };
 
   return (
@@ -66,11 +66,8 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Student-Led Info Panels
                   </h3>
                 <p className="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -83,23 +80,20 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/student_panel.png')}
                   alt="Features split 01"
                   width={528}
-                  height={396} />
+                  height={370} />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Internship Opportunities
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Besides the career fair, we also invite various companies throughout the year to tell our members about on-going internship and full-time roles they may apply to. Many students are able to netowrk with the scientists and recruiters that come to our meetings! 
                   </p>
               </div>
               <div className={
@@ -109,7 +103,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/open_people.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -118,11 +112,8 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Joining our Community!
                   </h3>
                 <p className="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -135,7 +126,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/wow_lots_peopke.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
