@@ -138,7 +138,7 @@ const AboutUs = ({
 					Morgan Boyd
 					</h4>
 					<p className="m-0 text-sm">
-						Vice President
+						Vice President!!
 						</p>
 						<p className="m-0 text-sm">
 						Molecular & Cell Bio
